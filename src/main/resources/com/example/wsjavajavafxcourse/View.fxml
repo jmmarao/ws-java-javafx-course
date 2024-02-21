@@ -5,7 +5,11 @@
 <?import javafx.scene.layout.AnchorPane?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0"
-            prefWidth="400.0" xmlns="http://javafx.com/javafx/21">
-    <Button layoutX="174.0" layoutY="138.0" mnemonicParsing="false" text="Button"/>
+            prefWidth="400.0"
+            xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.wsjavajavafxcourse.ViewController">
+    <Button fx:id="btTest" layoutX="174.0" layoutY="138.0" mnemonicParsing="false" onAction="#onBtTestAction"
+            text="Button"/>
     <Label layoutX="174.0" layoutY="102.0" text="Click here"/>
 </AnchorPane>
+
