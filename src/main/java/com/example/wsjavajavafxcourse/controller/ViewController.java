@@ -1,4 +1,4 @@
-package com.example.wsjavajavafxcourse;
+package com.example.wsjavajavafxcourse.controller;
 
 import com.example.wsjavajavafxcourse.utils.Alerts;
 import javafx.fxml.FXML;

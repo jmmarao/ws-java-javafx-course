@@ -7,4 +7,6 @@ module com.example.wsjavajavafxcourse {
     exports com.example.wsjavajavafxcourse;
     exports com.example.wsjavajavafxcourse.utils;
     opens com.example.wsjavajavafxcourse.utils to javafx.fxml;
+    exports com.example.wsjavajavafxcourse.controller;
+    opens com.example.wsjavajavafxcourse.controller to javafx.fxml;
 }
