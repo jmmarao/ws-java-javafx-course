@@ -9,7 +9,7 @@ import javafx.scene.control.TextField;
 
 import java.util.Locale;
 
-public class ViewController {
+public class CalculateSumController {
 
     @FXML
     private TextField txtFirstNumber;
